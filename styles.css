@@ -14,9 +14,10 @@
 */
 body {
     text-align: center;
-    background-color: whitesmoke;
-    margin: 5%;
+    background-color: black;
+    margin: 1%;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
 }
 
 .toplogo {
@@ -40,6 +41,12 @@ footer {
     font-variant: small-caps;
     line-height: 2em;
     padding-left: 1%;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 1%;
+    margin: 1%;
 }
 
 /*  =============
@@ -81,7 +88,7 @@ ul,
 li {
     display: flex;
     list-style-type: none;
-    font-size: 1.1em;
+    font-size: 1.2em;
     align-items: center;
     justify-content: center;
     height: 100%;
