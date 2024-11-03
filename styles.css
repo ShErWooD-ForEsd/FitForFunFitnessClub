@@ -19,6 +19,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.toplogo {
+    width: 100%;
+}
+
 header {
     font-size: 3em;
     padding: 2%;
@@ -80,7 +84,7 @@ li {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 95%;
+    width: 100%;
     margin: auto;
     padding: 8px;
     background-color: rgb(233, 229, 229);
