@@ -14,9 +14,14 @@
 */
 body {
     text-align: center;
-    background-color: white;
+    background-color: whitesmoke;
     margin: 5%;
     font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 3em;
+    padding: 2%;
 }
 
 footer {
@@ -53,12 +58,12 @@ td {
 
 .blueborder {
     border-left: 4px solid blue;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .orangeborder {
     border-left: 4px solid orange;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 /*  ==================
