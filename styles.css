@@ -129,3 +129,29 @@ nav a:hover {
     Form Styles:
     ============
 */
+
+.formcontainer {
+    background-color: darkgrey;
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 15%;
+    width: 75%;
+}
+
+.submit {
+    width: initial;
+}
+
