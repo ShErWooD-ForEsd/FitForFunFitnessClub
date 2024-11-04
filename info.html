@@ -29,29 +29,31 @@
 
 
         <div class="formcontainer">
+            <form method="get" action="thankyou.html">
 
-            <form>
                 <fieldset>
                     <legend><b>Contact Information</b></legend>
                     <label for="fname">
                         First Name:
-                        <input autofocus type="text" name="fname" required placeholder="First Name" />
+                        <input autofocus type="text" name="fname" required id="fname" placeholder="First Name" />
                     </label>
                     <label for="lname">
                         Last Name:
-                        <input type="text" name="lname" required placeholder="Last Name" />
+                        <input type="text" name="lname" required id="lname" placeholder="Last Name" />
                     </label>
                     <label for="email">
                         Email:
-                        <input type="email" name="email" required placeholder="Email" />
+                        <input type="email" name="email" required id="email" placeholder="Email" />
                     </label>
+                    <label for="phone">
+                        Phone:
+                        <input type="tel" name="phone" required id="phone" placeholder="Phone" />
+                    </label>
+
                     <input class="submit" type="submit" value="Submit" />
+
                 </fieldset>
             </form>
-
-
-
-
 
         </div>
 
