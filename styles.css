@@ -51,7 +51,9 @@ footer {
 
 .Homeimages {
     width: 300px;
+    box-shadow: 2px 2px grey;
 }
+
 /*  =============
     Table Styles:
     =============
@@ -98,7 +100,7 @@ li {
     width: 95%;
     margin: auto;
     padding: 4px;
-    background-color: rgb(227, 225, 225);
+
 }
 
 nav a {
@@ -107,8 +109,20 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
-    color: blue;
+    color: whitesmoke;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 2px solid black;
+    color: white;
+    padding: 8px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /*  ============
