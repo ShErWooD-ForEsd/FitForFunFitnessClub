@@ -133,7 +133,7 @@ nav a:hover {
 .formcontainer {
     background-color: darkgrey;
     margin: auto;
-    width: 80%;
+    width: 50%;
     padding: 25px;
     border: 2px solid black;
     text-align: left;
@@ -147,10 +147,40 @@ label {
 
 input {
     position: absolute;
-    left: 15%;
-    width: 75%;
+    left: 16%;
+    width: 80%;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    background-color: skyblue;
+}
+
+input[type=submit] {
+    cursor: pointer;
 }
 
 .submit {
     width: initial;
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+}
+
+#class1,
+#class2,
+#class3,
+#class4,
+#class5,
+#class6,
+#class7,
+#class8,
+#class9 {
+    left: 4%;
+}
+
+#AM,
+#PM {
+        left: -9%;
 }
